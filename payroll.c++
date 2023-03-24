@@ -56,8 +56,8 @@ int main()
 {
     intro();
     vector<Employee*> employees;
-    employees.push_back(new Employee("John Doe", 40, 15.0));
-    employees.push_back(new Manager("Jane Smith", 0, 0, 52000.0));
+    employees.push_back(new Employee("Boluwatife", 40, 15.0));
+    employees.push_back(new Manager("Adeshola", 0, 0, 52000.0));
 
     for (auto employee : employees) {
         employee->PrintPaycheck();
@@ -74,8 +74,8 @@ int main()
         // Introduction section 
 void intro(){
     cout << "\n\n\n\t     PAYROLL SYSTEM";
-    cout << "\n\n\n\n\t     ALADE TEMITAYO GRACE:";
-    cout << "\n\n\n\n\t     H/CTE/22/0677: ";
+    cout << "\n\n\n\n\t     SHOKEHINDE KAFAYAT TEMITOPE:";
+    cout << "\n\n\n\n\t     H/CTE/22/0679: ";
     cout << "\n\n\n\n\t     SUPERVISOR : ENGR NZUBE";
     cout << "\n\n\n\n\t     SCHOOL : THE FEDERAL POLYTECHNIC ILARO";
     cin.get();
